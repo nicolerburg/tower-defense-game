@@ -1,0 +1,52 @@
+{
+    "name": "Mouse",
+    "maps": [
+        {
+            "name": "Mouse",
+            "id": "aa87e3ed-251f-43bc-a960-559d5f6c14d6",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "f1826d78-524a-4d15-884f-462726aa2736",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "30674ac8-5a1d-4728-8b38-bec8425bc973",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9cc1d295-934a-45e0-8cc5-a9d8c4e4d411",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7a6f5f6e-5036-41bd-9ac8-e7b4d600b7b6",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
